@@ -59,7 +59,7 @@ public static int list_to_integer(Node list) {
 	int new_integer = 0;
 	
 	//this loop is used to convert linked list to integer 
-		// through traversing from beginning to and value at current element
+		// through traversing from the beginning to the end and value at current element
 			// is multiplied by 10^
 	
 	for (int i = 0; i < list.getSize(); i++) { 
